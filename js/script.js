@@ -83,3 +83,5 @@ const counters = document.querySelectorAll('.skills__progress-percent'),
 counters.forEach( (item, i) => {
     lines[i].style.width = item.innerHTML;
 });
+
+new WOW().init();
